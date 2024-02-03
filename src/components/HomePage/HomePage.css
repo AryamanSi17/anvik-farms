@@ -1,0 +1,11 @@
+
+.background-image {
+    background-image: url('bg.png'); /* Accessing image from the public folder */
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    object-fit: cover; /* this makes the image cover the entire container */
+    object-position: center top;
+    overflow: hidden; /* ensures that the part of the image outside this container is hidden */
+    width: 100%;
+}
